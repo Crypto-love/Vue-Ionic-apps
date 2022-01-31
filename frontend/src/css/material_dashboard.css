@@ -1,0 +1,177 @@
+.bgDrawermenu {
+  width: 15%;
+  height: 100%;
+  background-color: #04565a;
+}
+
+.mainpage {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
+.bgData {
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+  background-color: #f6ffec;
+}
+
+.data1 {
+  margin-bottom: 44px;
+  padding: 14px;
+  height: 150px;
+  border-radius: 8px;
+  box-shadow: 6px 9px 24px 0 rgba(0, 0, 0, 0.17);
+  background-color: #ffffff;
+}
+
+.dialogData1 {
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  transform: translateX(0%) translateY(-50%);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px 0 rgba(241, 187, 82, 0.32);
+}
+
+.dialogData2 {
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  transform: translateX(0%) translateY(-90%);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px 0 rgba(229, 107, 104, 0.32);
+  background-color: #e56b68;
+}
+.dialogData3 {
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  transform: translateX(0%) translateY(-90%);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px 0 rgba(145, 87, 246, 0.32);
+  background-color: #9157f6;
+}
+
+.dialogData4 {
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  transform: translateX(0%) translateY(-90%);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px 0 rgba(212, 105, 243, 0.32);
+  background-color: #d469f3;
+}
+
+.lineDialog {
+  width: 100%;
+  height: 1px;
+  background-color: #9e9e9e;
+}
+
+.add {
+  width: 84px;
+  height: 42px;
+  border-bottom-right-radius: 21px;
+  border-top-right-radius: 21px;
+  background-color: #ffd600;
+}
+
+.pulse {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+}
+
+.pulse:before {
+  position: absolute;
+  content: '';
+  display: block;
+  border: 50%;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  top: -12px;
+  right: -12px;
+  bottom: -12px;
+  left: -12px;
+  animation: animate 1.3s linear infinite;
+  opacity: 0;
+}
+.pulse:after {
+  animation-delay: 1s;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(0.7);
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+.move1 {
+  animation-name: moveToRight;
+  animation-duration: 1s;
+}
+.move1a {
+  animation-name: moveToRight;
+  animation-duration: 1.5s;
+}
+.move1b {
+  animation-name: moveToRight;
+  animation-duration: 2s;
+}
+
+.move2 {
+  animation-name: moveToLeft;
+  animation-duration: 2s;
+}
+.move2a {
+  animation-name: moveToLeft;
+  animation-duration: 1.5s;
+}
+.move2b {
+  animation-name: moveToLeft;
+  animation-duration: 2s;
+}
+
+@keyframes moveToLeft {
+  0% {
+    transform: translateX(240px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveToRight {
+  0% {
+    transform: translateX(-240px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

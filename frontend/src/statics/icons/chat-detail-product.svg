@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="32" height="32" fill="transparent"/>
+    <g id="Group_9417" data-name="Group 9417" transform="translate(-2477.172 -2319.172)">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="32" height="32" rx="4" transform="translate(2477.172 2319.172)" fill="none"/>
+      <g id="Icon_ionic-md-chatbubbles" data-name="Icon ionic-md-chatbubbles" transform="translate(2486.056 2327.695)">
+        <path id="Path_4987" data-name="Path 4987" d="M6.342,18.527A1.826,1.826,0,0,1,4.774,16.96V11.25H4.439a1.068,1.068,0,0,0-1.064,1.064v9.572l2.047-2.029h7.526a1.08,1.08,0,0,0,1.064-1.081v-.248Z" transform="translate(-3.375 -7.331)" fill="#66717c"/>
+        <path id="Path_4988" data-name="Path 4988" d="M19.075,3.375H9.307A1.224,1.224,0,0,0,8.086,4.6v7.91a1.227,1.227,0,0,0,1.221,1.225h8.334L20.3,15.585V4.6A1.224,1.224,0,0,0,19.075,3.375Z" transform="translate(-5.742 -3.375)" fill="#66717c"/>
+      </g>
+    </g>
+  </g>
+</svg>

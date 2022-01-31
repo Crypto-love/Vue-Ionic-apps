@@ -1,0 +1,6 @@
+{
+  "chromeWebSecurity": false,
+  "video": false,
+  "screenshotOnRunFailure": false,
+  "testFiles": ["**/*.{feature,features}", "**/*.spec.js"]
+}

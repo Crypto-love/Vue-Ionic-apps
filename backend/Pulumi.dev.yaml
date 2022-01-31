@@ -1,0 +1,53 @@
+config:
+  aws:region: ap-southeast-1
+  titan-gqlapi:certificateArn: arn:aws:acm:ap-southeast-1:048162753991:certificate/a4bbd6b3-1f1b-4606-a509-20f1d23b337e
+  titan-gqlapi:coreStack: treedots/core/dev
+  titan-gqlapi:service:
+    environment:
+      AWS_ACCESS_KEY_ID: AKIAQWNVZJXDT22SAV2X
+      AWS_REGION: ap-southeast-1
+      AWS_IMAGES_BUCKET: treedots-core-dev-public-d20221c
+      AWS_S3_BUCKET_PUBLIC: treedots-core-dev-public-d20221c
+      CT_ACCOUNT_ID: TEST-RKR-ZZ7-7Z6Z
+      CT_HOST: https://api.clevertap.com/1
+      DEBUG: '*'
+      ENV: development
+      JWT_SECRET: dooboolab
+      NODE_ENV: development
+      SENDBIRD_APP_ID: A6129E70-05F7-4495-BA7D-09BAB4025C2A
+      SENDBIRD_URL: https://api-A6129E70-05F7-4495-BA7D-09BAB4025C2A.sendbird.com
+      SENDGRID_HOST: https://api.sendgrid.com/v3/mail/send
+      SENTRY_DSN_URL: https://447ce09eed8d442da2e78a8cf9cde6c0@o526676.ingest.sentry.io/5718781
+      STRIPE_VERSION: '2018-08-23'
+      TWILIO_ACCOUNT_SID: AC56ec52d249fd0a403b1e984b7b57d432
+      TWILIO_ANDROID_APP_HASH: 4k/C5B3Dzb9SJ8xxTDYF6w1ChD4=
+      TWILIO_API_HOST: https://api.twilio.com/2010-04-01/Accounts
+      TWILIO_API_VERIFY: https://verify.twilio.com/v2/Services
+      TWILIO_VERIFY_SID: VA1894aa6ead5f78a1d8aec8d29cf9dd06
+      VOUCHERIFY_APPID: 0c3b8bf9-3e21-42ce-b164-194ad82f94e0
+      VOUCHERIFY_HOST: https://as1.api.voucherify.io
+    secrets:
+      AWS_SECRET_ACCESS_KEY:
+        secure: AAABAPRCivg6ZDPuq7wp1VqYej5Ne1xYMLiZkzg+sSovZM4uX8lYbswzWYK2ntEtSyOLf/1FyaoAlc6ZtR5gUS/b7M10lGoe
+      CT_PASSCODE:
+        secure: AAABAF1OHLK37xpieVEw72vn+8X5sHdOs2X25u6uMmoMgZ99M7BW+ZxbLCc=
+      DATABASE_URL:
+        secure: AAABAJnHxgwhek7yi2s+G51zXqagq94GTKQO/l/p+SDn9oCewqLTOo8XB+47Glz7OprsvRKpAr7nAPnKuuvwcFGyAODY0sx5wsN3Qo8JzybkUDaBOg+vvY+alxxzznUPfvGShbu0KfTjn6fnBriz2w==
+      JWT_SECRET:
+        secure: AAABAA31cGQ//bQJAIJqK0C5/o0260Ky+bb1H7S4lUUfyom9GEGFYUUcVEUeG3sA
+      SENDBIRD_TOKEN:
+        secure: AAABAMCwM1EStyZmEwGFsIM20ZyNgQ0ZVigIDW0nCaTmi2VDG0t4z6Er1DA/AX5lmitbzHfd774rtwtnRewQHsKcrVXMPYbG
+      SENDGRID_API_KEY:
+        secure: AAABAMEgcA8/czxdo9SujD1AGR5Xp6Es1S8TiX2lwWoxKGyk1BVYbD8wPnt6h6T/6EAho2xinxvCVx8j0JEE6HYXJPcdF4XxqkjKePqJEpOgVjucIDdUTnjVmirHIQ0s4faaSxk=
+      STRIPE_SECRET_KEY_MYR:
+        secure: AAABAFvsQSWzXrL51X3XJz4hF+M6+NB3OaQkZ2hojI63wyuc5VyV09I+YKDfimuRDLhcbk/iMKixbOfOZwWx1SfFAozCsjxTTDNa7qNVwcaBCcGL23iQ6n0lr9TNu/9/0qNWvf43Y62yiwlJ8bUPk2AzCKCYqSLDKhn0QuSL+v5hCsgiLsaUQ5US+w==
+      STRIPE_SECRET_KEY_SGD:
+        secure: AAABADfUoiTT2CsQTuwUW2ci6YuDvtvieYuac50JCDe3o/96qgCGie2vQtjfrP+2Fp9O/ciuZ4CsjcUJ2PPtxA==
+      TWILIO_AUTH_TOKEN:
+        secure: AAABAOJMYBzG55O5uqrT2QNHuMRwb0HbZd3GiXbTQYkwn1z7ZCs8PJY7NrsyGMCUqHxPX3lgE7k4rTFUfSaG9A==
+      VOUCHERIFY_SECRET_KEY:
+        secure: AAABAK1BAbBCLGl/V3eN9wFRF4+Y6a4PrnfMsSFupDqE+LiHuyPqFs3XasijE9DBqBRCipUA7rznWHVrOi5Dei7tNUc=
+  titan-gqlapi:serviceAssignPublicIp: 'true'
+  titan-gqlapi:serviceCpu: '256'
+  titan-gqlapi:serviceDesiredCount: '1'
+  titan-gqlapi:serviceMemory: '512'

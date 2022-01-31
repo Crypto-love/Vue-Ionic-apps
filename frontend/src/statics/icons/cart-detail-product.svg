@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-Artboard_3">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_3" data-name="Artboard – 3" clip-path="url(#clip-Artboard_3)">
+    <rect width="32" height="32" fill="#fff"/>
+    <g id="Group_9415" data-name="Group 9415" transform="translate(-316 -16)">
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="12" cy="12" r="12" transform="translate(320 20)" fill="none" opacity="0.4"/>
+      <g id="Group_9152" data-name="Group 9152" transform="translate(1665.895 -6692.604)">
+        <g id="shopping-cart" transform="translate(-1342.395 6718.573)">
+          <path id="Path_5256" data-name="Path 5256" d="M5.155,9.378h8.5a.469.469,0,0,0,.451-.34l1.875-6.564a.469.469,0,0,0-.451-.6H4.074L3.739.367A.469.469,0,0,0,3.281,0H.469a.469.469,0,0,0,0,.938H2.905L4.6,8.556a1.407,1.407,0,0,0,.559,2.7h8.5a.469.469,0,0,0,0-.938h-8.5a.469.469,0,0,1,0-.938ZM14.91,2.813,13.3,8.44H5.532L4.282,2.813Zm0,0" transform="translate(0 0)" fill="#fff" stroke="#fff" stroke-width="0.24"/>
+          <path id="Path_5257" data-name="Path 5257" d="M150,361.4a1.4,1.4,0,1,0,1.4-1.4A1.406,1.406,0,0,0,150,361.4Zm1.4-.468a.468.468,0,1,1-.468.468A.469.469,0,0,1,151.4,360.936Zm0,0" transform="translate(-145.311 -348.747)" fill="#fff" stroke="#fff" stroke-width="0.24"/>
+          <path id="Path_5258" data-name="Path 5258" d="M362,361.4a1.4,1.4,0,1,0,1.4-1.4A1.406,1.406,0,0,0,362,361.4Zm1.4-.468a.468.468,0,1,1-.468.468A.469.469,0,0,1,363.4,360.936Zm0,0" transform="translate(-350.682 -348.747)" fill="#fff" stroke="#fff" stroke-width="0.24"/>
+        </g>
+        <rect id="Rectangle_2769" data-name="Rectangle 2769" width="16" height="16" transform="translate(-1342.395 6717.604)" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+config:
+  aws:region: ap-southeast-1
+  titan-gqlapi:certificateArn: arn:aws:acm:ap-southeast-1:048162753991:certificate/495814bf-2269-4299-a5ff-0903deacd131
+  titan-gqlapi:coreStack: treedots/core/test
+  titan-gqlapi:service:
+    environment:
+      AWS_ACCESS_KEY_ID: AKIAQWNVZJXDT22SAV2X
+      AWS_IMAGES_BUCKET: treedots-core-test-public-cf912b1
+      AWS_REGION: ap-southeast-1
+      AWS_S3_BUCKET_PUBLIC: treedots-core-test-public-cf912b1
+      CT_ACCOUNT_ID: TEST-RKR-ZZ7-7Z6Z
+      CT_HOST: https://api.clevertap.com/1
+      DEBUG: '*'
+      ENV: testing
+      FCM_HOST: https://fcm.googleapis.com/fcm/send
+      NODE_ENV: testing
+      SENDBIRD_APP_ID: A6129E70-05F7-4495-BA7D-09BAB4025C2A
+      SENDBIRD_URL: https://api-A6129E70-05F7-4495-BA7D-09BAB4025C2A.sendbird.com
+      SENDGRID_HOST: https://api.sendgrid.com/v3/mail/send
+      SENTRY_DSN_URL: https://447ce09eed8d442da2e78a8cf9cde6c0@o526676.ingest.sentry.io/5718781
+      STRIPE_VERSION: '2018-08-23'
+      TWILIO_ACCOUNT_SID: AC56ec52d249fd0a403b1e984b7b57d432
+      TWILIO_ANDROID_APP_HASH: 4k/C5B3Dzb9SJ8xxTDYF6w1ChD4=
+      TWILIO_API_HOST: https://api.twilio.com/2010-04-01/Accounts
+      TWILIO_API_VERIFY: https://verify.twilio.com/v2/Services
+      TWILIO_VERIFY_SID: VA1894aa6ead5f78a1d8aec8d29cf9dd06
+      VOUCHERIFY_APPID: 0c3b8bf9-3e21-42ce-b164-194ad82f94e0
+      XERO_CLIENT_ID: 14B484CF8AB9414DAD7C123586608588
+      VOUCHERIFY_HOST: https://as1.api.voucherify.io
+      XFERS_API_KEY: test_9e77ef47be962f22e1676f5ff1eff723
+      XFERS_HOST: https://sandbox.xfers.io/api/v4
+      XERO_REDIRECT_URI: https://testing.thetreedots.com/api/xero/callback
+    secrets:
+      AWS_SECRET_ACCESS_KEY:
+        secure: AAABAFUOJff4bItKuog47iaH8G1s4BCE6U7RBuj5vuNxCBRnuttrzoZliMX/O1LOuN7FlvjENMYRLICgQaA/2R+aTTAYTzup
+      CT_PASSCODE:
+        secure: AAABAJUye0ek6VYLpyWQ4zdNkfBAR7qTU6eQ9Ksa3Twgtr9QUynvAwXSEyg=
+      DATABASE_URL:
+        secure: AAABAHP8dwG7yz6+V2tyGcrx0DJpzQZv2XAnhJXJMvUCjeCcOd4Kxxy4NuS1C6IqKmhjS6d781uXgbDStFnHFrmS25GC14pjPgRaZNrEZSaDdfF3A921rJKXt7SloKQxRDJ3CisGobLo+84xHtkeoFs=
+      FCM_SERVER_KEY:
+        secure: AAABALb83nobRMg7xCupb/Q//2mdBRHtjq4U5Cvddc6u39F/+OHXf5oNA75PuLZGxMjuO9TuXCrAJJ8FokIQTbRGqcA5nunAeTpOuGkN6YbqYcFZ9z3WDoMkO3g1WaGS8DQ6YVURObG9rYWiyXQr1YGdq3+G5DuiAZXb2oNfmnLD6BjH92r/8RxSxdPx6pf6mDjS5L7lgf/bdSP3jqiNiAgPcUCiPFRuD1CXxtcy0bQTaFep/naEgg==
+      JWT_SECRET:
+        secure: AAABAOi4UwKN3J28Y97SLuoXfz8GNjjwVhT8ZD/TZyzMPFS390YtdUD76blM0Xeg
+      SENDBIRD_TOKEN:
+        secure: AAABAJoBJelZDFCSnSs/fHxmzKWhuusfGOaYAreRq/VK1Vn5B/gxgImrvw6Nn7YT6wQ0mDueC/twWapQTen2ex94UPK5EWXu
+      SENDGRID_API_KEY:
+        secure: AAABAHsbsbyU79IbfxRyaDw1VI8Cb9oBWyw4U+fVsI03P8lC8Kl86ZSSS3yoOFZXFQgpCKvQ1hxFRtUfIq435XOF9ItLk13f7FTHN+vZXRZwDrR4+n73OGeFj7807z9aRbBDpuo=
+      STRIPE_SECRET_KEY_MYR:
+        secure: AAABABa/U+cyutiBP9lKng7ZE0l2HJVkD+Db7XbmUE9YxfzihHtFsscklkA6srvfYif7HenSJMdXAD0UpQZYo/YGYhD1xTzTsa5XWEbtuvhP2SxiVe37bCrA3ZnbEhEGzfkGyQnKDEBsqRphUXuFnqcac8H3uqK8XzdtNQXF7hILKFEuTp3n+wMySQ==
+      STRIPE_SECRET_KEY_SGD:
+        secure: AAABAOjCFul71BU2uOJXr76QgMdMNbY2Pg30OHNdUKXocgDpSO8eqGpt6xviUNjXi1gzcGkl89TcqCfQ8H63Gw==
+      TWILIO_AUTH_TOKEN:
+        secure: AAABAINjqVKDMvNBgD9iZrEUvxkwnumQzeXXRuS6uzC4DDPDOS2Y1/IfMxoebptuXRNWE3Cw5e5loByIjMWx8w==
+      VOUCHERIFY_SECRET_KEY:
+        secure: AAABAKjW7olor8+r/Yd7+g8YFojiEhRY8Ie1N8BxPs6Zza+FxkOuKKxtAH9KUVDmhW7BQRla4MS56Ajw7/dt4LdfFB8=
+      XERO_CLIENT_SECRET:
+        secure: AAABAKnc52qDn+rJ8870Ll8Ye+kOtIBvgbHPTdqSE9sxDs+CNJsZxB8znjjaaZneU6YRXFfPgo9u2IsU3markv+35QTe85QbYGgiNCabsxw=
+      XFERS_ACCEPT_SIGNING_SECRET:
+        secure: AAABANMP+5l1DryoyRrlSRAtVKpF3+SzpLj0jJXMJwD41gutxdk/YVLo7dmBY52RaXfyI8tgZFDWIgi/vJx38rQP1A==
+      XFERS_API_SECRET:
+        secure: AAABACh504IcPVQQhoygtxHf5O30PqVPaScRjZUGXzq+F/R/RiulceSFpNkwPGmoTn4b0T2hRRKKiXXCBEDjVIV/EIA=
+      XFERS_SEND_SIGNING_SECRET:
+        secure: AAABAPplk/dXwd4QUo1ttVfrn4OA6L/+wz9XXOLDRryGjox2eP2C3JP0MHw/+uQaSWuF8UGoa4RHEPSpkJnNGu1eBA==
+  titan-gqlapi:serviceAssignPublicIp: 'true'
+  titan-gqlapi:serviceCpu: '1024'
+  titan-gqlapi:serviceDesiredCount: '1'
+  titan-gqlapi:serviceMemory: '2048'

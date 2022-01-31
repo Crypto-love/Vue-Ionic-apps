@@ -1,0 +1,21 @@
+module.exports = {
+  id: process.env.ID,
+  production: process.env.ENV == 'testing' || process.env.ENV == 'staging' || process.env.ENV == 'production',
+  env: process.env.ENV,
+  interval: process.env.INTERVAL && parseInt(process.env.INTERVAL),
+  wss: process.env.WSS,
+  ws: process.env.WS,
+  api: process.env.API,
+  graphql_api: process.env.GRAPHQL_API,
+  images: process.env.IMAGES,
+  images_uat: process.env.IMAGES_UAT,
+  aws_images: process.env.AWS_IMAGES,
+  facebook_app_id: process.env.FACEBOOK_APP_ID,
+  twilio_dev_number: process.env.TWILIO_DEV_NUMBER,
+  base: process.env.BASE,
+  xero_login_url: process.env.XERO_LOGIN_URL,
+  sentry_DSN_url: process.env.SENTRY_DSN_URL,
+  sentry_trace_rate: process.env.SENTRY_TRACE_RATE,
+  aws_region: process.env.AWS_REGION,
+  aws_s3_bucket_public: process.env.AWS_S3_BUCKET_PUBLIC
+};

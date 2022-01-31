@@ -1,0 +1,16 @@
+# Quasar core related directories
+.quasar
+/dist
+
+# Cordova related directories and files
+/src-cordova/node_modules
+/src-cordova/www
+
+# Capacitor related directories and files
+/src-capacitor/node_modules
+/src-capacitor/www
+
+# PWA related directories and files
+/src-pwa
+
+.env

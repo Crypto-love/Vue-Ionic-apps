@@ -1,0 +1,176 @@
+// Quasar Sass (& SCSS) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+$primary   : #04565A
+$secondary : #26A69A
+$accent    : #FFD600
+$dark      : #062E26
+$positive  : #21BA45
+$negative  : #C10015
+$info      : #f6ffec
+$warning   : #f1bb52
+
+// Landing Page color
+
+$greendark   : #062E26
+$greenlight  : #C9D397
+$accentpink  : #FF975E
+$lightblue   : #B2EBF2
+$lightyellow : #FFECB3
+$bggrey      : #F6F6F6
+
+.tdots-table
+    border: 1px solid #DADCE0
+    box-shadow: none !important
+    thead tr th
+        background-color: #f0f0f0
+        padding-top: .5rem
+        padding-bottom: .5rem
+        font-weight: 400
+    tbody tr td
+        padding-top: 0
+        padding-bottom: 0
+        height: 42px
+        color: #444444
+    .t-bottom 
+        .t-select-row
+            .q-field__control, .q-field__native, .q-field__marginal
+                min-height: 40px
+                height: 40px
+.tdots-bottom
+    .q-table__bottom
+        padding: 4px 0
+        .bordered-top
+            border-top: 1px solid rgba(0, 0, 0, 0.12);
+.q-checkbox__inner--truthy .q-checkbox__bg, .q-checkbox__inner--indet .q-checkbox__bg
+    background: #ffffff !important
+    .q-checkbox__svg
+        color: $primary
+.q-dialog__inner > div
+    border-radius: 12px
+.data-header
+    display: flex
+    position: relative
+    .top-header
+        padding-top: 1rem
+        padding-bottom: 1rem
+        .text-caption
+            color: #666666
+    .header-right
+        position: absolute
+        right: 0
+        bottom: 1rem
+    .btn-add
+        background: $primary
+        color: #ffffff
+        border-radius: 15px
+        padding-left: 1rem
+        padding-right: 1rem
+        margin-top: 0.45rem
+.d-none
+    display: none
+.tdots-edit-form
+    [aria-disabled]
+        background-color: #DADCE0
+.btn-save
+    color: #ffffff
+    background: $primary
+    padding: 0 1rem
+    text-transform: capitalize
+    font-size: 0.875rem
+.btn-cancel
+    color: #666666
+    background: #e4e4e4
+    padding: 0 1rem
+    text-transform: capitalize
+    font-size: 0.875rem
+@media only screen and (max-width: 600px)
+    .data-header
+        display: block
+        .header-right
+            position: relative
+@media only screen and (max-width: 360px)
+    .data-header
+        display: block
+@media only screen and (max-width: 353px)
+    .data-header
+        .top-row
+            display: block
+            position: relative
+        .btn-section
+            display: block
+            text-align: center
+            margin-bottom: 5px
+        .search-section
+            display: block
+            margin: 0 auto
+            .search-input
+                padding: 0
+                margin: 0
+
+.btn-add
+    background: $primary
+    color: #ffffff
+    border-radius: 15px
+    padding-left: 1rem
+    padding-right: 1rem
+    margin-top: 0.45rem
+.btn-add.padding-sm
+    padding-left: .35rem
+    padding-right: .35rem
+.btn-font-sm
+    font-size: 13px
+
+// This is used for safe area of mobile app. Applied in <q-header>
+.q-header
+    padding-top: constant(safe-area-inset-top)
+    padding-top: env(safe-area-inset-top)
+
+// This is used for safe area of mobile app. Applied in <q-footer>
+.q-footer
+    padding-bottom: constant(safe-area-inset-bottom)
+    padding-bottom: env(safe-area-inset-bottom)
+
+// Confirmation Order (without login)
+.confirm-table
+    padding-bottom: .5rem
+    thead tr th
+        background-color: #e3e8cd
+        padding-top: .5rem
+        padding-bottom: .5rem
+        font-size: 14px
+    tbody tr td
+        padding-top: 0
+        padding-bottom: 0
+        height: 40px
+        color: #444444
+.topup
+    .topup-table
+        box-shadow: none
+        thead tr th
+            background-color: #f0f0f0
+            padding-top: .5rem
+            padding-bottom: .5rem
+            font-weight: 400
+        tbody tr td
+            padding-top: 0
+            padding-bottom: 0
+            height: 42px
+            color: #444444
+            border-bottom-width: 1px
+        .t-bottom 
+            .t-select-row
+                .q-field__control, .q-field__native, .q-field__marginal
+                    min-height: 40px
+                    height: 40px
